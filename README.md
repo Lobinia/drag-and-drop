@@ -1,4 +1,9 @@
-This is a Drag and Drop project JavaScript Focused, for now it works with the mouse only.
+<p align="center">
+    <img width="480" src="master/assets/images/sample.gif">
+</p>
+
+##Description
+This is a Drag and Drop project developed with HTML, CSS and JavaScript, for now it works with the mouse only.
 
 You can freely drag and drop the squares between the areas, as long as it is not already filled with another square.
 
