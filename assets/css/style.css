@@ -27,6 +27,7 @@ h1 {
     align-items: center;
     border: 2px solid #FFF;
 }
+
 .item {
     width: 100px;
     height: 100px;
@@ -38,22 +39,27 @@ h1 {
     align-items: center;
     cursor: grab;
 }
+
 .item.dragging {
     opacity: 0.8;
 }
+
 .areas {
     width: 450px;
     display: flex;
     margin-top: 30px;
 }
+
 .areas.correct .area {
     border-left: 2px solid #00FF00;
     border-top: 2px solid #00FF00;
     border-bottom: 2px solid #00FF00;
 }
+
 .areas.correct .area:nth-last-child(1){
     border-right: 2px solid #00FF00;
 }
+
 .area {
     width: 150px;
     height: 150px;
@@ -64,22 +70,27 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 .area:nth-last-child(1){
     border-right: 2px solid #FFFFFF;
 }
+
 .hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 .tips {
     margin-top: 15px;
     color: #FFF;
     font-size: 20px;
 }
+
 footer {
     margin-top: 20px;
     color: #FFF;
     font-size: 13px;
 }
+
 footer a, footer a:visited {
     font-size:18px;
     color:rgb(222, 184, 135);
